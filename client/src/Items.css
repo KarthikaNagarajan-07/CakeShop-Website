@@ -1,0 +1,97 @@
+/* AdminWeeklyReport.css */
+
+.report-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.search-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    margin: 2%;
+}
+
+.search-form button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #e74c3c;
+}
+
+.loading,
+.error-message {
+    text-align: center;
+    font-weight: bold;
+    color: #f44336; /* Red color for error */
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+
+.no-results {
+    text-align: center;
+    color: #777;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #e74c3c;
+}

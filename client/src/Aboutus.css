@@ -1,0 +1,133 @@
+.about-us {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+}
+
+.about-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rating-value {
+    font-size: 2rem;
+    color: #28a745;
+    margin-right: 10px;
+}
+
+.rating-stars {
+    font-size: 1.5rem;
+    color: #ffc107;
+    margin-right: 10px;
+}
+
+.rating-count {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.address-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #545556;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.timing-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #4c4c4c;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    margin-bottom: 20px;
+}
+
+.map-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+/* h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #0c0c0c;
+    border-bottom: 2px solid #7b7c7d;
+    padding-bottom: 5px;
+} */
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    color: #495057;
+    margin-bottom: 10px;
+    float: center;
+}
+
+.contact-us {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #868989;
+    border-radius: 5px;
+    color: #4f4f51;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        padding: 15px;
+    }
+
+    .rating-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rating-value {
+        margin-bottom: 10px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}

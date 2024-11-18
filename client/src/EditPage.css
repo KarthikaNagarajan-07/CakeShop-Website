@@ -1,0 +1,39 @@
+.edit-product-page {
+    padding: 20px;
+  }
+  
+  .edit-product-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  .edit-product-form div {
+    margin-bottom: 10px;
+  }
+  
+  .edit-product-form label {
+    font-weight: bold;
+  }
+  
+  .edit-product-form input {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .edit-product-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  } */
+  

@@ -1,0 +1,96 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+   .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .l {
+    color: #e74c3c;
+    display: flex;
+  }
+  
+  .select-city, .track-order, .cart, .sign-in {
+    margin: 0 10px;
+    
+  }
+  
+  .search {
+    flex: 1;
+    padding: 5px 10px;
+    margin: 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ddd;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  } 
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250%;
+    border-radius: 8px;
+  }
+
+  .card img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.2);
+  }
+
+  .text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  .button:hover {
+    background-color: #e74c3c;
+    color: rgb(232, 230, 230);
+  }
+
+  .sign-in{
+    color: rgb(8, 8, 8);
+  }
+  
+  .sign-in1{
+    color: rgb(249, 248, 248);
+    margin-bottom: 20px;
+  }
+  

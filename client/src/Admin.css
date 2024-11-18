@@ -1,0 +1,76 @@
+.admin-dashboard {
+    background-color: #f0f2f5;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.admin-dashboard h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.dashboard-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dashboard-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.dashboard-card-icon {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.dashboard-card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.dashboard-card-description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Footer container for the Home and Log Out buttons */
+.admin-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-home, .btn-logout {
+    background-color: #070707;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover, .btn-logout:hover {
+    background-color: #e53935;
+}

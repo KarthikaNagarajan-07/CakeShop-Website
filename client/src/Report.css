@@ -1,0 +1,60 @@
+/* Report.css */
+
+.weekly-report-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.weekly-report-title {
+    text-align: center;
+    color: #444;
+}
+
+.weekly-sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+.weekly-sales-table th,
+.weekly-sales-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.weekly-sales-table th {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.weekly-sales-table tr:hover {
+    background-color: #fafafa;
+}
+
+.loading-indicator,
+.error-indicator {
+    text-align: center;
+    font-weight: bold;
+    color: #e53935; /* Red color for error messages */
+}
+
+.return-button {
+    display: block;
+    margin: 25px auto;
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.return-button:hover {
+    background-color: #e74c3c;
+}

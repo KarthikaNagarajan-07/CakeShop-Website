@@ -1,0 +1,67 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+.img14{
+    float: right;
+    width: 100px;
+}
+
+input[type="date"] {
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc; /* Light border */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #333; /* Dark text */
+    width: 100%;
+    max-width: 250px; /* Optional max width */
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #4CAF50; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green glow on focus */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #4CAF50; /* Optional: Green calendar icon */
+    cursor: pointer; /* Pointer cursor */
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ .button12{
+    margin-left:45%;
+ }

@@ -1,0 +1,353 @@
+
+
+.order-page {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 150%;
+
+}
+
+.order-page img {
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* .order-info {
+    max-width: 400px;
+} */
+
+.order-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.order-info .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.order-info .rating {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.order-info .weight, .order-info .flavour {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.order-info .weight button, .order-info .flavour button {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color:#333;
+}
+
+.order-info .weight button.active, .order-info .flavour button.active {
+    border: 1px solid #ff3366;
+    background-color: #ff3366;
+    color:#e80e0e;
+}
+
+.order-info .weight button:hover, .order-info .flavour button:hover {
+    background-color: #ff3366;
+    color: #ffffff;
+}
+
+.order-info .add-to-cart, .order-info .buy-now {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.order-info .add-to-cart button, .order-info .buy-now button {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 7vh;
+    
+}
+.order-info .message-input {
+    margin-bottom: 20px;
+}
+
+.order-info .message-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.order-info .message-input span {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.order-info .add-to-cart button {
+    background-color: #ff3366;
+    color: white;
+    margin-right: 20px;
+}
+
+.order-info .buy-now button {
+    background-color: #ff6666;
+    color: rgb(250, 247, 247);
+}
+
+.order-info .add-to-cart button:hover, .order-info .buy-now button:hover {
+    background-color: #ff0033;
+}
+
+.serving-info {
+    font-size: 14px;
+    color:#777;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.serving-info:hover {
+    color: #333;
+} 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  } 
+
+  .price{
+    margin-bottom: 20%;
+  }
+  
+/* Order.css
+
+/* .order-page {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px;
+}
+
+.order-page img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.order-info {
+    max-width: 450px;
+}
+
+.order-info h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-info .rating {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #f1c40f;
+    display: flex;
+    align-items: center;
+}
+
+.order-info .rating span {
+    margin-left: 5px;
+    color: #999;
+}
+
+.order-info .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.order-info .weight, .order-info .flavour {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.order-info .weight button, .order-info .flavour button {
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-info .flavour a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.order-info .weight button.active, .order-info .flavour button.active {
+    border: 1px solid #ff3366;
+    background-color: #ff3366;
+    color: #fff;
+}
+
+.order-info .weight button:disabled, .order-info .flavour button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.order-info .weight button:hover:not(:disabled), .order-info .flavour button:hover:not(:disabled) {
+    background-color: #ff3366;
+    color: #fff;
+}
+
+.order-info .message-input {
+    margin-bottom: 20px;
+}
+
+.order-info .message-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.order-info .message-input span {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.order-info .delivery-location {
+    margin-bottom: 20px;
+}
+
+.order-info .delivery-location input {
+    width: calc(100% - 150px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.order-info .delivery-location button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.order-info .delivery-location p {
+    font-size: 14px;
+    color: #ff6600;
+    margin-top: 5px;
+}
+
+.order-info .add-to-cart, .order-info .buy-now {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.order-info .add-to-cart button, .order-info .buy-now button {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-info .add-to-cart button {
+    background-color: #ff3366;
+    color: white;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.order-info .buy-now button {
+    background-color: #ff3366;
+    color: white;
+    flex: 1;
+}
+
+.order-info .add-to-cart button:hover, .order-info .buy-now button:hover {
+    background-color: #ff0033;
+}
+
+.serving-info {
+    font-size: 14px;
+    color: #777;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.serving-info:hover {
+    color: #333;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.image-gallery img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.selected-image {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+} */

@@ -1,0 +1,182 @@
+/* .product-details-page {
+    padding: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-table tr:hover {
+    background-color: #ddd;
+}
+
+.product-table td {
+    font-size: 14px;
+}
+
+.out-of-stock {
+    background-color: #ffe6e6;
+    color: red;
+}
+
+.out-of-stock td {
+    color: red;
+} */
+
+/* Styles for the ProductUpload component */
+/* .product-upload-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .product-upload-form input,
+  .product-upload-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .product-upload-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-upload-form button:hover {
+    background-color: #45a049;
+  }
+  .product-upload-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .product-upload-form input,
+  .product-upload-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .product-upload-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-upload-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .product-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .product-table img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  .product-table button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-table button:hover {
+    background-color: #d32f2f;
+  } */
+
+  /* Container for the form */
+/* Styling for the product upload form */
+.product-upload-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+/* Styling for the input fields in the product upload form */
+.product-upload-container input[type="text"],
+.product-upload-container input[type="number"],
+.product-upload-container input[type="file"] {
+  width: calc(100% - 22px); /* Adjust width to account for padding and borders */
+  padding: 10px;
+  margin-bottom: 15px; /* Consistent margin at the bottom of each input */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #ddd;
+}
+
+/* Button styling */
+.product-upload-container button {
+  width: calc(100% - 22px); /* Adjust width to match input fields */
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Consistent margin at the top of the button */
+}
+
+.product-upload-container button:hover {
+  background-color: #218838;
+}
+.product-list-table img {
+  max-width: 100px; /* Set the maximum width for the image */
+  max-height: 100px; /* Optionally set the maximum height to maintain aspect ratio */
+  width: auto; /* Allow width to adjust based on max-width */
+  height: auto; /* Allow height to adjust based on max-height */
+  border-radius: 5px; /* Optional: keep rounded corners */
+}
+
+    

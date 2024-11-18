@@ -1,0 +1,190 @@
+/* .order-success-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.order-info {
+    margin-bottom: 20px;
+ } 
+
+ .order-info img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+} 
+
+.payment-section {
+    margin-top: 20px;
+}
+
+.payment-section button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-section button:hover {
+    background-color: #0056b3;
+} */
+
+
+/* OrderPayment.css */
+
+.order-success-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.order-success-page h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-info {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-info h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.order-info p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.order-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.payment-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e0f7fa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-section h3 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.payment-section p {
+    color: #00796b;
+}
+
+.payment-section button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #00796b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.payment-section button:hover {
+    background-color: #004d40;
+}
+
+/* Modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; /* Space around the table */
+}
+
+.order-details-table th, .order-details-table td {
+    border: 1px solid #dee2e6; /* Add border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+.order-details-table th {
+    background-color: #f8f9fa; /* Light background for headers */
+}
+
+.order-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.order-details-table th, .order-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-details-table th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+/* button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+} */

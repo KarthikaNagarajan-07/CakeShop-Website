@@ -1,0 +1,41 @@
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #e74c3c;
+  }
+  
+  .select-city, .track-order, .cart, .sign-in {
+    margin: 0 10px;
+    
+  }
+  
+  .search {
+    flex: 1;
+    padding: 5px 10px;
+    margin: 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ddd;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  } */

@@ -1,0 +1,32 @@
+.flavors-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.flavors-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.flavor-button {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  width: 50vh;
+}
+
+.flavor-button:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.h2{
+  text-align: left;
+}
